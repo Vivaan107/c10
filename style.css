@@ -1,0 +1,46 @@
+body {
+    font-family:'Arial',sans-serif;
+    background-color: black;
+    color: beige;
+}
+
+h1 {
+    color: blue;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: skyblue;
+}
+ul > li {
+    font-weight: bold;
+}
+h1 + p {
+    background-color: rgb(25, 0, 255);
+    padding: 10px;
+    border-radius: 5px;
+    color: brown;
+}
+ul li:hover {
+    color: red;
+}
+ul li:nth-child(3) {
+    background-color: gray;
+}
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+ul li::before {
+    content: '🚀';
+}
+
+a::after {
+    content:'👨‍🚀';
+}
+p::first-letter {
+    font-size: 200%;
+    color:peachpuff;
+}
